@@ -1,0 +1,1 @@
+ALTER TABLE client_transactions ADD COLUMN IF NOT EXISTS proforma_id uuid REFERENCES proformas(id) ON DELETE SET NULL;

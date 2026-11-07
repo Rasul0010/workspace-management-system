@@ -1,0 +1,1 @@
+ALTER TABLE proformas ADD COLUMN IF NOT EXISTS trashed boolean NOT NULL DEFAULT false;

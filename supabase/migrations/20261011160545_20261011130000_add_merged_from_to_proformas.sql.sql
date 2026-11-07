@@ -1,0 +1,1 @@
+ALTER TABLE proformas ADD COLUMN IF NOT EXISTS merged_from text[];
